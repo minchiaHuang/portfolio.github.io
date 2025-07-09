@@ -1,0 +1,20 @@
+# Lesson files (for local learning only)
+lessons/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node modules (future projects)
+node_modules/
+
+# Environment variables
+.env
+
+# Exercise files (local practice only)
+exercises/

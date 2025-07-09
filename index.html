@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Min Chia Huang Portfolio</title>
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Min Chia Huang</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Min Chia Huang</span></h1>
+          <h2 class="hero-subtitle">Frontend Developer</h2>
+          <p class="hero-description">
+            Building modern, responsive web applications with clean code and exceptional user experiences.
+            <strong>3+ projects delivered</strong> using React and modern JavaScript.
+          </p>
+          <div class="hero-skills">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">Modern CSS</span>
+            <span class="skill-tag">Git & GitHub</span>
+          </div>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">View My Work</a>
+            <a href="#contact" class="btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="projects-container">
+
+      <!--AI Chatbot Project-->
+      <div class="project-card">
+        <div class="project-image">
+          🤖 AI Chatbot Preview
+        </div>
+        <h3 class="project-title">AI Chatbot</h3>
+        <div class="project-tech">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">OpenAI API</span>
+          <span class="tech-tag">HTML/CSS</span>
+          <span class="tech-tag">JSON</span>
+        </div>
+        <p class="project-description">
+          An intelligent chatbot powered by AI that can understand and respond to user queries naturally. Features
+          include conversation memory, context understanding, and real-time responses.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link">View Live</a>
+          <a href="#" class="project-link">View code</a>
+        </div>
+      </div>
+
+      <!--Real-time Chat Project-->
+      <div class="project-card">
+        <div class="project-image">
+          💬 Real-time Chat Preview
+        </div>
+        <h3 class="project-title">Real-time Chat</h3>
+        <div class="project-tech">
+          <span class="tech-tag">Socket.io</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">CSS3</span>
+        </div>
+        <p class="project-description">
+          A fully functional real-time chat application with instant messaging, user presence indicators, and message
+          history. Built with modern web technologies for seamless communication.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link">View Live</a>
+          <a href="#" class="project-link">View code</a>
+        </div>
+      </div>
+
+      <!--SortViz Project-->
+      <div class="project-card">
+        <div class="project-image">
+          📊 SortViz Preview
+        </div>
+        <h3 class="project-title">SortViz - Algorithm Visualizer</h3>
+        <div class="project-tech">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Canvas API</span>
+          <span class="tech-tag">Algorithm</span>
+          <span class="tech-tag">CSS3</span>
+        </div>
+        <p class="project-description">
+          Interactive sorting algorithm visualizer that demonstrates how different sorting algorithms work. Features
+          multiple algorithms, speed controls, and real-time visual feedback.
+        </p>
+        <div class="project-links">
+          <a href="#" class="project-link">View Live</a>
+          <a href="#" class="project-link">View code</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+    <p>Hi, I’m Tommy, a creative developer with a background in film and a passion for technology. I’m currently
+      learning full-stack web development and preparing to study Information Technology in Australia.
+
+      With a love for building useful and user-friendly web projects, I enjoy combining storytelling and coding to
+      create digital experiences. I'm always open to new ideas and collaborations!</p>
+  </section>
+
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>Text me</p>
+    <form id="contact-form" onsubmit="handleInput(event)">
+      <input type="text" id="nameInput" placeholder="Name" required>
+      <input type="email" id="emailInput" placeholder="Email" required>
+      <textarea id="messageInput" placeholder="Message" required></textarea>
+      <button type="submit">SUBMIT</button>
+    </form>
+  </section>
+</body>
+<footer>
+  <p>Copyright &#169; 2025 Min Chia Huang All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</html>
